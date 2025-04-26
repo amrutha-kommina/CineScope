@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import { useLocation } from "react-router-dom";
 import { fetchSearchResults } from "../api/tmdb";
 import MovieCard from "../components/MovieCard";
+import Spinner from "../components/Spinner";
 
 function SearchResults() {
   const [results, setResults] = useState([]);
@@ -18,7 +19,7 @@ function SearchResults() {
     }
   }, [query]);
 
-  if (loading) return <div>Loading...</div>;
+  if (loading) return Spinner;
 
   return (
     <div className="max-w-5xl mx-auto p-4">
