@@ -1,12 +1,26 @@
-# React + Vite
+# 🎬 CineScope - Movies Info WebApp
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+CineScope is a simple and sleek web application built with **React**.  
+It allows users to browse, search, and explore about movies.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Features
 
-## Expanding the ESLint configuration
+- 🔍 **Search Movies**: Search for your favorite movies by title.
+- 🏠 **Home Page**: Browse trending, top-rated, popular, and upcoming movies.
+- 🎬 **Movie Details**: View complete details like overview, genres.
+- ❤️ **Watchlist**: Save movies to your personal watchlist (saved using Local Storage).
+- 📱 **Responsive Design**: Mobile, tablet, and desktop-friendly UI.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## ⚙️ Tech Stack
+
+- **React** (Frontend framework)
+- **React Router** (Routing between pages)
+- **Fetch API** (For HTTP requests)
+- **TMDB API** ([The Movie Database API](https://www.themoviedb.org/documentation/api))
+- **Tailwind CSS** (for styling) *(optional: you can use plain CSS or other UI libraries too)*
+
+---
